@@ -30,17 +30,11 @@ export default function ScrollToTopButton({
   return (
     <button
       onClick={scrollToTop}
-      className={`
-        fixed bottom-6 right-6 p-3 rounded-full 
-        bg-green-600 text-white hover:bg-green-700 
-        dark:bg-gray-700 dark:hover:bg-gray-600 
-        shadow-lg z-40 transition-all duration-500 ease-in-out transform
-        ${
-          isVisible
-            ? "opacity-100 translate-y-0 pointer-events-auto"
-            : "opacity-0 translate-y-10 pointer-events-none"
-        }
-      `}
+      className={`fixed bottom-6 right-6 z-40 rounded-full bg-[linear-gradient(135deg,#0083E6,#00AB00)] p-3 text-white shadow-[0_18px_40px_rgba(0,131,230,0.25)] transition-all duration-500 ease-in-out ${
+        isVisible
+          ? "pointer-events-auto translate-y-0 opacity-100"
+          : "pointer-events-none translate-y-10 opacity-0"
+      }`}
       aria-label="Volver arriba"
       aria-hidden={!isVisible}
       tabIndex={isVisible ? 0 : -1}

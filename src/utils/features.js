@@ -1,60 +1,34 @@
-import { MapPin, Clock, HandCoins, Smartphone, Gift, Bell } from "lucide-react";
-import mapBg from "@assets/feature-map.jpg";
-import clockBg from "@assets/feature-clock.jpg";
-import shieldBg from "@assets/feature-shield.jpg";
-import phoneBg from "@assets/feature-phone.jpg";
-import cardBg from "@assets/feature-card.jpg";
-import bellBg from "@assets/feature-bell.jpg";
-
 export const features = [
   {
-    icon: MapPin,
-    title: "Ubicación en Tiempo Real",
+    step: "1",
+    title: "Libera tu plaza",
     description:
-      "Encuentra estacionamientos disponibles cerca de ti con precisión GPS avanzada",
-    color: "green",
-    image: mapBg,
+      "Avisas en segundos de que tu plaza va a quedar libre para que otro conductor pueda aprovecharla.",
+    accent: "blue",
+    illustration: "release",
   },
   {
-    icon: Clock,
-    title: "Encuentra tu plaza",
-    description: "Localiza las plazas libres que dejan otros conductores",
-    color: "blue",
-    image: clockBg,
+    step: "2",
+    title: "Otro ocupa tu plaza",
+    description:
+      "Quien esta buscando aparcamiento ve el aviso y llega antes a una zona con mas opciones.",
+    accent: "blue",
+    illustration: "occupy",
   },
   {
-    icon: HandCoins,
-    title: "ParkiPuntos",
+    step: "3",
+    title: "Recibe tu numero",
     description:
-      "Notifica plazas libres, acumula ParkiPuntos y consigue números para participar en nuestros sorteos",
-    color: "purple",
-    image: shieldBg,
+      "Cada plaza liberada o aviso de plaza ocupada genera un numero para participar en sorteos.",
+    accent: "gold",
+    illustration: "reward",
   },
   {
-    icon: Smartphone,
-    title: "App Intuitiva",
+    step: "4",
+    title: "Gana sorteos",
     description:
-      "Interfaz moderna y fácil de usar, diseñada para la máxima simplicidad",
-    color: "orange",
-    image: phoneBg,
-  },
-  {
-    icon: Gift,
-    title: "Sorteos Periódicos",
-    description:
-      "Participa en increíbles sorteos periódicos, cargados de tecnología y más",
-    color: "indigo",
-    image: cardBg,
-    showBases: true,
-  },
-  {
-    icon: Bell,
-    title: "Notificaciones Inteligentes",
-    description:
-      "Alertas personalizadas sobre reservas, ofertas y recordatorios",
-    color: "pink",
-    image: bellBg,
+      "Tu actividad en la comunidad puede abrirte la puerta a premios y sorteos periodicos.",
+    accent: "green",
+    illustration: "raffle",
   },
 ];
-
-

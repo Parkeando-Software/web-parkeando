@@ -1,24 +1,29 @@
 import React from "react";
+import { ArrowRight } from "lucide-react";
 
 export default function FeaturesCTA() {
   return (
-    <div className="text-center mt-20">
-      <div className="relative rounded-3xl p-12 text-white shadow-md overflow-hidden bg-blue-700 dark:bg-blue-950">
-        <div className="absolute inset-0 bg-black/10" />
-        <h3 className="relative text-3xl md:text-4xl font-bold mb-6 tracking-tight text-slate-100 dark:text-slate-300">
-          ¿Listo para revolucionar tu experiencia de estacionamiento?
+    <div className="mt-14 text-center md:mt-16">
+      <div className="premium-panel relative overflow-hidden p-10 md:p-12">
+        <div className="absolute inset-y-0 left-0 w-1/3 bg-gradient-to-r from-sky-200/35 to-transparent dark:from-sky-500/10" />
+        <div className="absolute inset-y-0 right-0 w-1/3 bg-gradient-to-l from-emerald-200/35 to-transparent dark:from-emerald-500/10" />
+
+        <h3 className="relative text-3xl font-extrabold tracking-tight text-slate-900 md:text-4xl dark:text-white">
+          Todo pensado para que aparcar se sienta menos pesado y mucho mas rapido.
         </h3>
-        <p className="relative text-lg md:text-xl mb-8 opacity-95 max-w-2xl mx-auto text-slate-100 dark:text-slate-300">
-          Únete a miles de conductores que ya disfrutan de la comodidad de ParKeando
+        <p className="relative mx-auto mt-5 max-w-2xl text-lg leading-8 text-slate-600 dark:text-slate-300">
+          Descubre una experiencia mas clara, mas util y mas agradable desde el
+          primer uso.
         </p>
         <button
-          className="relative text-white bg-green-600 hover:bg-green-700 dark:bg-green-800 dark:hover:bg-green-900 px-8 py-4 rounded-2xl font-semibold text-lg transition-all duration-300 transform hover:scale-[1.02] shadow-lg cursor-pointer border border-white/30"
+          className="relative mt-8 inline-flex items-center gap-2 rounded-full bg-[linear-gradient(135deg,#0083E6,#19a1ff)] px-8 py-4 font-bold text-white shadow-[0_22px_44px_rgba(0,131,230,0.28)] transition hover:-translate-y-0.5 hover:brightness-105"
           onClick={() => {
-            const el = document.getElementById("download");
+            const el = document.getElementById("screenshots");
             if (el) el.scrollIntoView({ behavior: "smooth", block: "start" });
           }}
         >
-          Comenzar Ahora
+          Ver la experiencia
+          <ArrowRight size={18} />
         </button>
       </div>
     </div>

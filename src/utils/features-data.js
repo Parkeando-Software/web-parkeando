@@ -2,7 +2,7 @@ import { Search, Map, Users, Bell, LineChart, Info } from "lucide-react";
 
 export const features = [
   {
-    title: "Colaboración entre conductores",
+    title: "Colaboracion entre conductores",
     description:
       "La comunidad de usuarios avisa cuando va a dejar libre una plaza de aparcamiento para que otros puedan aprovecharla.",
     icon: Users,
@@ -10,29 +10,29 @@ export const features = [
   {
     title: "Aviso de plazas libres",
     description:
-      "Indica fácilmente en la app que vas a dejar tu plaza. Otros usuarios verán tu aviso en el mapa en tiempo real.",
+      "Indica facilmente en la app que vas a dejar tu plaza. Otros usuarios veran tu aviso en el mapa en tiempo real.",
     icon: Bell,
   },
   {
     title: "Mapa colaborativo",
     description:
-      "Consulta el mapa para ver las plazas que otros usuarios van a dejar próximamente. La información se actualiza al instante.",
+      "Consulta el mapa para ver las plazas que otros usuarios van a dejar proximamente. La informacion se actualiza al instante.",
     icon: Map,
   },
   {
     title: "Sistema de puntos",
     description:
-      "Gana puntos cada vez que ayudas a la comunidad avisando que dejas tu plaza. ¡Tu colaboración tiene recompensa!",
+      "Cada plaza liberada o cada notificacion de plaza ocupada genera un numero dentro del sistema para reflejar tu actividad en la comunidad.",
     icon: LineChart,
   },
   {
     title: "Gratuita y sin pagos",
     description:
-      "ParKeando es completamente gratuita. No hay pagos, comisiones ni reservas. Solo colaboración entre conductores.",
+      "ParKeando es completamente gratuita. No hay pagos, comisiones ni reservas. Solo colaboracion entre conductores.",
     icon: Info,
   },
   {
-    title: "Búsqueda inteligente",
+    title: "Busqueda inteligente",
     description:
       "Encuentra plazas libres cerca de tu destino gracias a los avisos de otros usuarios.",
     icon: Search,

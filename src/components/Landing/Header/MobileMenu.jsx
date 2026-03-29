@@ -1,12 +1,10 @@
 import React, { useEffect } from "react";
-import { Link } from "react-router-dom";
 import { motion, AnimatePresence } from "framer-motion";
-import { X } from "lucide-react";
+import { ChevronRight, X } from "lucide-react";
 import { NAV_ITEMS } from "@utils/menu-sections";
 import { AuthButtons } from "@components/Landing/Header/AuthButtons";
 
 export function MobileMenu({ isOpen, onClose, scrollToSection }) {
-  // Bloqueo del scroll del body
   useEffect(() => {
     document.body.style.overflow = isOpen ? "hidden" : "";
     return () => {
@@ -14,116 +12,59 @@ export function MobileMenu({ isOpen, onClose, scrollToSection }) {
     };
   }, [isOpen]);
 
-  const menuVariants = {
-    hidden: {
-      x: "100%",
-      opacity: 0,
-      transition: { type: "spring", stiffness: 300, damping: 30 },
-    },
-    visible: {
-      x: 0,
-      opacity: 1,
-      transition: {
-        type: "spring",
-        stiffness: 200,
-        damping: 25,
-        when: "beforeChildren",
-        staggerChildren: 0.1,
-      },
-    },
-    exit: {
-      x: "100%",
-      opacity: 0,
-      transition: { type: "spring", stiffness: 300, damping: 30 },
-    },
-  };
-
-  const itemVariants = {
-    hidden: { y: 40, opacity: 0, scale: 0.9 },
-    visible: {
-      y: 0,
-      opacity: 1,
-      scale: 1,
-      transition: { type: "spring", stiffness: 400, damping: 25 },
-    },
-    hover: {
-      scale: 1.1,
-      x: 10,
-      color: "#16a34a",
-      transition: { type: "spring", stiffness: 400, damping: 10 },
-    },
-    tap: { scale: 0.95 },
-  };
-
   return (
     <AnimatePresence>
       {isOpen && (
         <motion.div
-          className="fixed inset-0 w-full h-screen z-50 bg-white/95 dark:bg-slate-900/95 backdrop-blur-sm flex justify-center p-6 overflow-auto"
-          variants={menuVariants}
-          initial="hidden"
-          animate="visible"
-          exit="exit"
+          className="fixed inset-0 z-50 flex h-screen w-full items-start justify-center bg-slate-950/50 p-6 pt-24 backdrop-blur-md"
+          initial={{ opacity: 0 }}
+          animate={{ opacity: 1 }}
+          exit={{ opacity: 0 }}
         >
-          <div className="flex flex-col items-center w-full max-w-xs mx-auto space-y-8 py-8">
-            {/* Botón cerrar animado */}
-            <motion.button
-              onClick={onClose}
-              initial={{ opacity: 0, scale: 0.5 }}
-              animate={{
-                opacity: 1,
-                scale: 1,
-                transition: {
-                  delay: 0.4,
-                  type: "spring",
-                  stiffness: 300,
-                  damping: 20,
-                },
-              }}
-              exit={{ opacity: 0, scale: 0.5 }}
-              whileHover={{ scale: 1.1 }}
-              whileTap={{ scale: 0.9 }}
-              className="self-end p-2 rounded-full text-blue-100 bg-green-600 dark:bg-slate-800 hover:bg-green-700 dark:hover:bg-slate-700 transition-colors shadow-sm"
-            >
-              <X size={28} />
-            </motion.button>
+          <motion.div
+            className="premium-panel flex w-full max-w-sm flex-col gap-5 overflow-hidden p-6"
+            initial={{ y: 30, opacity: 0, scale: 0.96 }}
+            animate={{ y: 0, opacity: 1, scale: 1 }}
+            exit={{ y: 20, opacity: 0, scale: 0.96 }}
+            transition={{ duration: 0.25, ease: "easeOut" }}
+          >
+            <div className="flex items-center justify-between">
+              <div>
+                <p className="text-[11px] font-semibold uppercase tracking-[0.28em] text-slate-500 dark:text-slate-400">
+                  Navegacion
+                </p>
+                <p className="mt-2 text-xl font-bold text-slate-900 dark:text-white">
+                  ParKeando
+                </p>
+              </div>
+              <button
+                onClick={onClose}
+                className="rounded-full bg-[#00AB00] p-2 text-white shadow-lg transition hover:brightness-110"
+              >
+                <X size={24} />
+              </button>
+            </div>
 
-            {/* Links de navegación */}
-            <motion.div
-              className="flex flex-col items-center w-full space-y-8"
-              variants={itemVariants}
-            >
+            <div className="flex flex-col gap-2">
               {NAV_ITEMS.map((item) => (
-                <motion.button
+                <button
                   key={item.id}
-                  variants={itemVariants}
-                  whileHover="hover"
-                  whileTap="tap"
                   onClick={() => {
                     scrollToSection(item.id);
                     onClose();
                   }}
-                  className="text-3xl md:text-2xl font-semibold text-slate-800 dark:text-slate-100"
+                  className="group flex items-center justify-between rounded-[1.2rem] border border-white/70 bg-white/82 px-5 py-4 text-left text-lg font-semibold text-slate-800 shadow-sm transition hover:bg-white dark:border-slate-700 dark:bg-slate-900/72 dark:text-slate-100"
                 >
-                  {item.label}
-                </motion.button>
+                  <span>{item.label}</span>
+                  <ChevronRight className="text-slate-400 transition-transform group-hover:translate-x-1 dark:text-slate-500" size={18} />
+                </button>
               ))}
-            </motion.div>
+            </div>
 
-            {/* Separador visual (más ancho y visible) */}
-            <motion.div
-              variants={itemVariants}
-              className="w-2/3 h-1 bg-slate-200 dark:bg-slate-700 my-6 rounded-full opacity-90"
-            />
+            <div className="h-px bg-slate-200 dark:bg-slate-700" />
 
-            {/* Botones de Auth */}
-            <motion.div
-              className="w-full flex flex-col items-center gap-4"
-              variants={itemVariants}
-            >
-              <AuthButtons className="flex-col space-y-4 space-x-0 w-full max-w-xs" />
-            </motion.div>
-          </div>
+            <AuthButtons className="w-full flex-col gap-3" />
+          </motion.div>
         </motion.div>
       )}
     </AnimatePresence>

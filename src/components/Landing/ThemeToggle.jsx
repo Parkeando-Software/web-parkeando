@@ -8,12 +8,12 @@ export function ThemeToggle() {
   return (
     <button
       onClick={toggleTheme}
-      className="p-2 rounded-md hover:bg-slate-200 dark:hover:bg-slate-700 transition"
+      className="rounded-full border border-slate-200/80 bg-white/82 p-3 shadow-lg transition hover:bg-white dark:border-slate-700 dark:bg-slate-900/82"
     >
       {theme === "dark" ? (
-        <SunIcon className="w-6 h-6 text-slate-400" />
+        <SunIcon className="h-5 w-5 text-amber-300" />
       ) : (
-        <MoonIcon className="w-6 h-6 text-slate-800" />
+        <MoonIcon className="h-5 w-5 text-slate-800" />
       )}
     </button>
   );

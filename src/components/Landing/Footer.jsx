@@ -7,51 +7,56 @@ import logo from "@assets/logo.png";
 
 export default function Footer() {
   const { setSettingsOpen } = useCookie();
+
   return (
-    <footer className="bg-gray-900 text-white py-12 px-4">
-      <div className="container mx-auto">
-        <div className="grid md:grid-cols-4 gap-8">
-          {/* Logo y descripción */}
+    <footer className="relative overflow-hidden bg-slate-950 px-4 py-14 text-white">
+      <div className="absolute left-0 top-0 h-px w-full bg-gradient-to-r from-transparent via-sky-500/40 to-transparent" />
+      <div className="absolute left-[-5rem] top-8 h-40 w-40 rounded-full bg-sky-500/12 blur-3xl" />
+      <div className="absolute right-[-4rem] bottom-0 h-44 w-44 rounded-full bg-emerald-500/10 blur-3xl" />
+
+      <div className="container relative z-10 mx-auto">
+        <div className="grid gap-10 md:grid-cols-4">
           <div>
-            <Link to="/" className="flex items-center space-x-2 mb-4">
+            <Link to="/" className="mb-4 flex items-center space-x-3">
               <img
                 src={logo}
                 alt="ParKeando"
-                width={32}
-                height={32}
-                className="cursor-pointer"
+                width={42}
+                height={42}
+                className="rounded-2xl"
               />
-              <span className="text-xl font-bold text-[#00B100] cursor-pointer">
-                ParKeando
-              </span>
+              <div>
+                <div className="text-[10px] font-semibold uppercase tracking-[0.28em] text-sky-100/55">
+                  Smart street parking
+                </div>
+                <span className="text-xl font-extrabold text-[#00B100]">
+                  ParKeando
+                </span>
+              </div>
             </Link>
-            <p className="text-gray-400">
+            <p className="max-w-xs text-slate-400">
               La solución más inteligente para encontrar estacionamiento en tu
               ciudad.
             </p>
           </div>
 
-          {/* Secciones del footer */}
           {footerSections.map((section, index) => (
             <FooterSection key={index} section={section} />
           ))}
         </div>
 
-        {/* Footer bottom */}
-        <div className="border-t border-gray-800 mt-8 pt-8">
-          <div className="flex justify-center">
-            <p className="text-gray-400 text-center">
+        <div className="mt-10 border-t border-white/10 pt-8">
+          <div className="flex flex-col items-center justify-center gap-3 text-center md:flex-row">
+            <p className="text-slate-400">
               &copy; {new Date().getFullYear()} ParKeando. Todos los derechos
               reservados.
             </p>
-            <div className="ml-4">
-               <button 
-                  onClick={() => setSettingsOpen(true)}
-                  className="text-gray-400 hover:text-white text-sm underline"
-                >
-                  Preferencias de cookies
-               </button>
-            </div>
+            <button
+              onClick={() => setSettingsOpen(true)}
+              className="text-sm text-slate-400 underline decoration-slate-600 underline-offset-4 transition hover:text-white"
+            >
+              Preferencias de cookies
+            </button>
           </div>
         </div>
       </div>

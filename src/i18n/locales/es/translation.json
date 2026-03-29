@@ -47,7 +47,7 @@
         "description": "Localiza las plazas libres que dejan otros conductores"
       },
       "parkiPoints": {
-        "title": "ParkiPuntos",
+        "title": "Numeros para sorteos",
         "description": "Notifica plazas libres, acumula ParkiPuntos y consigue números para participar en nuestros sorteos"
       },
       "intuitiveApp": {

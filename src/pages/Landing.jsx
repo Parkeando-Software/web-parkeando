@@ -1,4 +1,3 @@
-import React, { useState, useEffect } from "react";
 import { Header } from "@components/Landing/Header";
 import Hero from "@components/Landing/Hero";
 import Features from "@components/Landing/Features";
@@ -10,34 +9,22 @@ import ScrollToTopButton from "@components/Landing/ScrollToTopButton";
 import { useTheme } from "@context/ThemeContext";
 
 export default function Landing() {
-  const [isMenuOpen, setIsMenuOpen] = useState(false);
   const { theme } = useTheme();
-
-  useEffect(() => {
-    document.body.style.overflow = isMenuOpen ? "hidden" : "";
-  }, [isMenuOpen]);
 
   return (
     <div
-      className={`flex flex-col min-h-screen relative transition-colors duration-300 
-        ${
-          theme === "dark" ? "bg-slate-900 text-white" : "bg-white text-black"
-        }`}
+      className={`relative flex min-h-screen flex-col transition-colors duration-300 ${
+        theme === "dark" ? "bg-slate-950 text-white" : "bg-slate-50 text-black"
+      }`}
     >
       <Header
         scrollToSection={(id) => {
           const el = document.getElementById(id);
           if (el) el.scrollIntoView({ behavior: "smooth" });
         }}
-        isMenuOpen={isMenuOpen}
-        setIsMenuOpen={setIsMenuOpen}
       />
 
-      <main
-        className={`flex-1 transition-all duration-300 ${
-          isMenuOpen ? "pt-0" : "pt-24"
-        }`}
-      >
+      <main className="flex-1 pt-24 md:pt-28">
         <Hero />
         <Features />
         <Screenshots />
@@ -46,8 +33,7 @@ export default function Landing() {
       </main>
 
       <Footer />
-
-      <ScrollToTopButton disabled={isMenuOpen} />
+      <ScrollToTopButton />
     </div>
   );
 }

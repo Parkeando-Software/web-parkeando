@@ -58,9 +58,9 @@ export default function ReviewsSlider() {
           <motion.div
             whileHover={{ scale: 1.03, y: -4 }}
             transition={{ type: "spring", stiffness: 200, damping: 15 }}
-            className="flex flex-col my-10 mx-2 h-full"
+            className="flex h-full flex-col px-2 py-8"
             ref={(el) => (cardRefs.current[index] = el)}
-            style={{ minHeight: maxHeight }}
+            style={maxHeight > 0 ? { height: maxHeight } : undefined}
           >
             <ReviewCard review={review} />
           </motion.div>

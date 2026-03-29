@@ -1,15 +1,17 @@
 import { Card, CardContent } from "@/components/ui/card";
-import { Download, Smartphone, Star } from "lucide-react";
+import { Download, MapPinned, Star } from "lucide-react";
 import { useEffect, useState } from "react";
 import api from "@config/api";
 import apiRoutes from "@config/apiRoutes";
 
 export default function DownloadStats() {
+  const DOWNLOADS_FALLBACK = "5875";
+  const PARKINGS_FALLBACK = "8378";
   const [stats, setStats] = useState({
-    users: { formatted: '0' },
-    parkings: { formatted: '0' },
+    users: { formatted: "0" },
+    parkings: { formatted: "0" },
     rating: 5.0,
-    downloads: '0'
+    downloads: "0",
   });
 
   useEffect(() => {
@@ -25,39 +27,45 @@ export default function DownloadStats() {
     fetchStats();
   }, []);
 
-/*   useEffect(() => {
-    setStats({
-      users: { formatted: "288k+" },
-      parkings: { formatted: "2.88M" },
-      rating: 5.0,
-      downloads: "10k+",
-    });
-  }, []); */
-
   const downloadStats = [
-    { number: stats.downloads, label: "Descargas", icon: Download },
-    { number: Number(stats.rating).toFixed(1), label: "Calificación promedio", icon: Star },
-    { number: stats.parkings.formatted, label: "Estacionamientos", icon: Smartphone },
+    {
+      // Usar de nuevo stats.downloads cuando queramos recuperar el dato real
+      number: DOWNLOADS_FALLBACK,
+      label: "Descargas",
+      icon: Download,
+    },
+    {
+      number: Number(stats.rating).toFixed(1),
+      label: "Calificación media",
+      icon: Star,
+    },
+    {
+      // Usar de nuevo stats.parkings.formatted cuando queramos recuperar el dato real
+      number: PARKINGS_FALLBACK,
+      label: "Estacionamientos compartidos",
+      icon: MapPinned,
+    },
   ];
 
   return (
-    <div className="grid grid-cols-1 md:grid-cols-3 gap-8 mb-16">
+    <div className="mb-16 grid grid-cols-1 gap-6 md:grid-cols-3">
       {downloadStats.map((stat, index) => {
         const IconComponent = stat.icon;
         return (
           <Card
             key={index}
-            className="bg-white/10 backdrop-blur-sm border border-white/20 hover:bg-white/20 transition-all duration-300"
+            className="overflow-hidden rounded-[1.75rem] border-white/14 bg-white/10 text-white shadow-none backdrop-blur-lg"
           >
-            <CardContent className="p-6 text-center">
-              <IconComponent
-                size={32}
-                className="mx-auto mb-3 text-[#00AB00]"
-              />
-              <div className="text-3xl md:text-4xl font-bold mb-2 text-slate-200">
+            <CardContent className="p-7 text-center">
+              <div className="mx-auto mb-4 flex h-14 w-14 items-center justify-center rounded-2xl bg-white/12">
+                <IconComponent size={28} className="text-emerald-300" />
+              </div>
+              <div className="text-3xl font-extrabold md:text-4xl">
                 {stat.number}
               </div>
-              <div className="text-sm opacity-80 text-slate-100">{stat.label}</div>
+              <div className="mt-2 text-sm uppercase tracking-[0.18em] text-white/72">
+                {stat.label}
+              </div>
             </CardContent>
           </Card>
         );

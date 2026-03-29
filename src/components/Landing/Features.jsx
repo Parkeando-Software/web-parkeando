@@ -1,36 +1,36 @@
 import React from "react";
 import { Zap } from "lucide-react";
-import FeatureCard from "@components/Landing/FeatureSection/FeatureCard";
 import FeaturesCTA from "@components/Landing/FeatureSection/FeaturesCTA";
-import { features } from "@/utils/features";
+import stepsImage from "@assets/features-steps.png";
 
 export default function Features() {
   return (
-    <section
-      id="features"
-      className="pt-32 pb-20 px-6 relative overflow-hidden bg-linear-to-tr from-blue-100 to-white dark:from-slate-900 dark:to-slate-800"
-    >
-      <div className="container mx-auto max-w-7xl relative z-10">
-        {/* Header */}
-        <div className="text-center mb-16 md:mb-20">
-          <div className="inline-flex items-center px-4 py-2 bg-blue-100 text-blue-700 rounded-full text-sm font-medium mb-8 dark:bg-blue-900 dark:text-blue-200">
-            <Zap size={16} className="mr-2" />
-            Características Principales
+    <section id="features" className="landing-section pt-14 md:pt-18">
+      <div className="container relative z-10 mx-auto max-w-7xl">
+        <div className="mx-auto mb-16 max-w-3xl text-center md:mb-20">
+          <div className="section-badge mb-8 text-slate-700 dark:text-slate-200">
+            <Zap size={16} className="text-[#0083E6]" />
+            Asi funciona ParKeando
           </div>
 
-          <h2 className="text-4xl md:text-6xl font-bold text-slate-600 dark:text-slate-300 mb-6 tracking-tight">
-            Todo lo que necesitas en <span className="text-[#0083E6] dark:text-blue-500 relative">una sola app</span>
+          <h2 className="text-4xl font-extrabold tracking-tight text-slate-900 md:text-6xl dark:text-white">
+            Cuatro pasos para
+            <span className="block text-[#0083E6]">entender el valor al instante.</span>
           </h2>
 
-          <p className="text-lg md:text-xl text-slate-600 dark:text-slate-300 max-w-3xl md:max-w-4xl mx-auto leading-relaxed">
-            ParKeando combina tecnología avanzada con simplicidad para ofrecerte la mejor experiencia de estacionamiento
+          <p className="mt-6 text-lg leading-8 text-slate-600 md:text-xl dark:text-slate-300">
+            Una dinamica visual, clara y facil de entender tanto para usuarios
+            como para cualquiera que vea el producto por primera vez.
           </p>
         </div>
 
-        <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-6 md:gap-8">
-          {features.map((feature, index) => (
-            <FeatureCard key={index} {...feature} index={index} />
-          ))}
+        <div className="relative overflow-hidden rounded-[1.8rem] border border-sky-100/80 bg-[linear-gradient(180deg,rgba(125,211,252,0.16),rgba(255,255,255,0.96))] p-1 md:rounded-[2.4rem] md:p-3 shadow-[0_28px_70px_rgba(15,23,42,0.08)] dark:border-slate-700 dark:bg-[linear-gradient(180deg,rgba(14,165,233,0.08),rgba(15,23,42,0.9))]">
+          <div className="absolute inset-x-10 top-0 h-px bg-gradient-to-r from-transparent via-sky-300 to-transparent" />
+          <img
+            src={stepsImage}
+            alt="Cuatro pasos de funcionamiento de ParKeando"
+            className="relative z-10 mx-auto w-[104%] max-w-none rounded-[1.2rem] object-contain shadow-[0_18px_40px_rgba(0,131,230,0.14)] md:w-full md:rounded-[1.85rem]"
+          />
         </div>
 
         <FeaturesCTA />
