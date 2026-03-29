@@ -24,7 +24,7 @@ export default function RegisterForm({
       animate={{ opacity: 1, x: 0 }}
       exit={{ opacity: 0, x: -40 }}
       transition={{ duration: 0.35 }}
-      className="absolute top-0 left-0 w-full"
+      className="w-full"
     >
       <form
         onSubmit={(e) => {
@@ -80,7 +80,7 @@ export default function RegisterForm({
           value={formData.confirmPassword}
           onChange={handleChange}
           icon={showConfirmPass ? <EyeOff /> : <Eye />}
-          onIconClick={() => setShowConfirmPass(!setShowConfirmPass)}
+          onIconClick={() => setShowConfirmPass(!showConfirmPass)}
         />
 
         <label className="flex items-center gap-2 mt-2 text-sm">

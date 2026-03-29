@@ -12,12 +12,12 @@ export default function AnimatedInput({
   const [isFocused, setIsFocused] = useState(false);
 
   return (
-    <div className="relative w-full mt-5">
+    <div className="relative mt-5 w-full">
       {/* Label encima */}
       <label
-        className={`absolute left-3 -top-5 px-1 text-sm font-medium transition-colors
+        className={`absolute left-3 -top-3 z-10 px-1 text-sm font-medium transition-colors
           ${isFocused ? "text-[#0083E6]" : "text-gray-500"}
-          bg-white/50 dark:bg-slate-900`}
+          bg-white/80 dark:bg-slate-900`}
       >
         {label}
       </label>
@@ -30,7 +30,7 @@ export default function AnimatedInput({
         onChange={onChange}
         onFocus={() => setIsFocused(true)}
         onBlur={() => setIsFocused(false)}
-        className={`w-full border-2 mb-5 rounded-xl px-3 py-2 focus:outline-none transition-colors
+        className={`mb-1 w-full rounded-xl border-2 px-3 py-3 focus:outline-none transition-colors
           ${isFocused ? "border-[#0083E6]" : "border-gray-300"}
           bg-white dark:bg-slate-800 text-black dark:text-white`}
         placeholder=" "
@@ -40,7 +40,7 @@ export default function AnimatedInput({
       {icon && (
         <span
           onClick={onIconClick}
-          className="absolute right-3 top-8/23 -translate-y-1/2 cursor-pointer text-gray-500"
+          className="absolute right-3 top-1/2 -translate-y-1/2 cursor-pointer text-gray-500"
         >
           {icon}
         </span>

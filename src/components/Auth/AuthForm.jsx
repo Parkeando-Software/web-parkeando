@@ -37,7 +37,7 @@ export default function AuthForm({
   };
 
   return (
-    <div className="max-w-6xl w-full grid grid-cols-1 md:grid-cols-2 gap-10 items-start">
+    <div className="grid w-full max-w-6xl grid-cols-1 gap-8 md:grid-cols-2 md:gap-10 items-start">
       {/* ----------- IZQUIERDA (texto animado) ----------- */}
       <AnimatePresence mode="wait">
         {activeTab === "login" ? (
@@ -48,7 +48,7 @@ export default function AuthForm({
       </AnimatePresence>
 
       {/* ----------- DERECHA (tu formulario) ----------- */}
-      <div className="w-full max-w-md bg-white/50 dark:bg-slate-950/50 shadow-lg rounded-2xl p-10 relative mx-auto backdrop-blur-md">
+      <div className="relative mx-auto w-full max-w-md rounded-2xl bg-white/60 p-6 shadow-lg backdrop-blur-md md:p-10 dark:bg-slate-950/50">
         {/* Tabs */}
         <div className="flex relative mb-6">
           <button
@@ -79,10 +79,8 @@ export default function AuthForm({
 
         {/* Contenedor animado del formulario */}
         <motion.div
+          layout
           className="relative overflow-hidden"
-          animate={{
-            height: activeTab === "login" ? 330 : 500,
-          }}
           transition={{ type: "spring", stiffness: 200, damping: 23 }}
         >
           <AnimatePresence mode="wait">

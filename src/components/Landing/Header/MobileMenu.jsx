@@ -16,13 +16,13 @@ export function MobileMenu({ isOpen, onClose, scrollToSection }) {
     <AnimatePresence>
       {isOpen && (
         <motion.div
-          className="fixed inset-0 z-50 flex h-screen w-full items-start justify-center bg-slate-950/50 p-6 pt-24 backdrop-blur-md"
+          className="fixed inset-0 z-50 flex h-screen w-full items-start justify-center overflow-y-auto bg-slate-950/50 p-2 pt-2 backdrop-blur-md md:p-6 md:pt-12"
           initial={{ opacity: 0 }}
           animate={{ opacity: 1 }}
           exit={{ opacity: 0 }}
         >
           <motion.div
-            className="premium-panel flex w-full max-w-sm flex-col gap-5 overflow-hidden p-6"
+            className="premium-panel mt-0 flex w-full max-w-sm flex-col gap-5 overflow-hidden p-6 max-[900px]:max-h-[calc(100vh-1rem)] max-[900px]:overflow-y-auto"
             initial={{ y: 30, opacity: 0, scale: 0.96 }}
             animate={{ y: 0, opacity: 1, scale: 1 }}
             exit={{ y: 20, opacity: 0, scale: 0.96 }}
