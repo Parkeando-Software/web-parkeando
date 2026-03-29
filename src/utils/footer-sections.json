@@ -1,0 +1,24 @@
+[
+  {
+    "title": "Producto",
+    "links": [
+      { "name": "Características", "href": "/features", "icon": "Car" },
+      { "name": "App/Web", "href": "/platforms", "icon": "Smartphone" }
+    ]
+  },
+  {
+    "title": "Soporte",
+    "links": [
+      { "name": "Centro de Ayuda", "href": "/help", "icon": "HelpCircle" },
+      { "name": "Contacto", "href": "/contact", "icon": "Phone" }
+    ]
+  },
+  {
+    "title": "Legal",
+    "links": [
+      { "name": "Privacidad", "href": "/privacy", "icon": "Shield" },
+      { "name": "Términos", "href": "/terms", "icon": "FileText" },
+      { "name": "Cookies", "href": "/cookies", "icon": "Cookie" }
+    ]
+  }
+]

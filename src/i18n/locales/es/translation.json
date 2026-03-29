@@ -1,0 +1,686 @@
+{
+  "nav": {
+    "home": "Inicio",
+    "features": "Características",
+    "screenshots": "Capturas",
+    "reviews": "Reseñas",
+    "download": "Descarga"
+  },
+  "header": {
+    "login": "Login",
+    "register": "Registro",
+    "myProfile": "Mi Perfil",
+    "openMenu": "Abrir menú"
+  },
+  "hero": {
+    "badge": "Cada vez más usuarios confían en nosotros",
+    "title": {
+      "part1": "Encuentra tu",
+      "highlight": "estacionamiento",
+      "part2": "en la calle, rápidamente."
+    },
+    "subtitle": {
+      "part1": "La aplicación colaborativa entre conductores, para encontrar estacionamiento en la calle de cualquier ciudad.",
+      "part2": "Sin vueltas, sin estrés, sin complicaciones."
+    },
+    "cta": "Descargar Gratis",
+    "stats": {
+      "activeUsers": "Usuarios Activos",
+      "parkings": "Estacionamientos",
+      "rating": "Calificación"
+    }
+  },
+  "features": {
+    "badge": "Características Principales",
+    "title": {
+      "part1": "Todo lo que necesitas en",
+      "highlight": "una sola app"
+    },
+    "subtitle": "ParKeando combina tecnología avanzada con simplicidad para ofrecerte la mejor experiencia de estacionamiento",
+    "items": {
+      "realTimeLocation": {
+        "title": "Ubicación en Tiempo Real",
+        "description": "Encuentra estacionamientos disponibles cerca de ti con precisión GPS avanzada"
+      },
+      "findParking": {
+        "title": "Encuentra tu plaza",
+        "description": "Localiza las plazas libres que dejan otros conductores"
+      },
+      "parkiPoints": {
+        "title": "ParkiPuntos",
+        "description": "Notifica plazas libres, acumula ParkiPuntos y consigue números para participar en nuestros sorteos"
+      },
+      "intuitiveApp": {
+        "title": "App Intuitiva",
+        "description": "Interfaz moderna y fácil de usar, diseñada para la máxima simplicidad"
+      },
+      "techRaffle": {
+        "title": "Sorteo Tecnológico",
+        "description": "Participa en los increíbles sorteos mensuales, cargados de tecnología"
+      },
+      "smartNotifications": {
+        "title": "Notificaciones Inteligentes",
+        "description": "Alertas personalizadas sobre reservas, ofertas y recordatorios"
+      }
+    },
+    "cta": {
+      "title": "¿Listo para revolucionar tu experiencia de estacionamiento?",
+      "subtitle": "Únete a miles de conductores que ya disfrutan de la comodidad de ParKeando",
+      "button": "Comenzar Ahora"
+    }
+  },
+  "screenshots": {
+    "title": "Capturas de la App",
+    "subtitle": "Explora las pantallas principales de la aplicación."
+  },
+  "reviews": {
+    "title": "Lo que dicen nuestros usuarios",
+    "subtitle": "Miles de usuarios satisfechos ya confían en ParKeando"
+  },
+  "download": {
+    "title": {
+      "part1": "Descarga",
+      "highlight": "ParKeando",
+      "part2": "ahora"
+    },
+    "subtitle": "Únete a miles de usuarios que ya disfrutan de la comodidad de encontrar estacionamiento fácilmente. Disponible gratis en todas las plataformas.",
+    "buttons": {
+      "appStore": {
+        "small": "Descargar en",
+        "main": "App Store"
+      },
+      "googlePlay": {
+        "small": "Disponible en",
+        "main": "Google Play"
+      }
+    },
+    "stats": {
+      "downloads": "Descargas",
+      "rating": "Calificación promedio",
+      "parkings": "Estacionamientos",
+      "support": "Soporte disponible"
+    },
+    "features": {
+      "title": "Todo lo que necesitas en una sola app",
+      "items": [
+        "Interfaz sencilla e intuitiva",
+        "Encuentra estacionamiento en segundos",
+        "Colaborativa entre conductores",
+        "Totalmente gratis",
+        "Navegación GPS incluida",
+        "Historial de estacionamientos"
+      ]
+    },
+    "cta": {
+      "title": "¿Qué esperas para empezar?",
+      "subtitle": "Descarga ParKeando hoy y nunca más pierdas tiempo buscando estacionamiento",
+      "button": "Descargar Gratis Ahora"
+    }
+  },
+  "footer": {
+    "description": "La solución más inteligente para encontrar estacionamiento en tu ciudad.",
+    "sections": {
+      "product": {
+        "title": "Producto",
+        "features": "Características",
+        "platforms": "App/Web"
+      },
+      "support": {
+        "title": "Soporte",
+        "helpCenter": "Centro de Ayuda",
+        "contact": "Contacto"
+      },
+      "legal": {
+        "title": "Legal",
+        "privacy": "Privacidad",
+        "terms": "Términos",
+        "cookies": "Cookies"
+      }
+    },
+    "copyright": "Todos los derechos reservados.",
+    "cookiePreferences": "Preferencias de cookies"
+  },
+  "auth": {
+    "login": {
+      "title": "Iniciar Sesión",
+      "email": "Email",
+      "password": "Contraseña",
+      "submit": "Entrar",
+      "loading": "Cargando...",
+      "forgotPassword": "¿Olvidaste tu contraseña?",
+      "googleButton": "Iniciar con Google"
+    },
+    "register": {
+      "title": "Crear Cuenta",
+      "username": "Nombre de usuario",
+      "email": "Email",
+      "password": "Contraseña",
+      "confirmPassword": "Confirmar contraseña",
+      "acceptTerms": "Acepto los",
+      "terms": "Términos",
+      "and": "y la",
+      "privacy": "Privacidad",
+      "submit": "Crear cuenta",
+      "loading": "Creando cuenta...",
+      "googleButton": "Registrarse con Google",
+      "errors": {
+        "passwordMismatch": "Las contraseñas no coinciden",
+        "acceptTermsRequired": "Debes aceptar los términos y condiciones"
+      }
+    },
+    "forgotPassword": {
+      "title": "Recuperar contraseña",
+      "email": "Correo",
+      "submit": "Enviar enlace",
+      "loading": "Enviando...",
+      "backToLogin": "Volver a iniciar sesión",
+      "errors": {
+        "emailRequired": "Introduce tu correo",
+        "sendFailed": "No se pudo enviar el correo"
+      },
+      "success": {
+        "title": "Enviado",
+        "message": "Revisa tu correo para el enlace de restablecimiento"
+      }
+    },
+    "resetPassword": {
+      "title": "Nueva Contraseña",
+      "subtitle": "Ingresa tu nueva contraseña para",
+      "newPassword": "Nueva Contraseña",
+      "confirmPassword": "Confirmar Contraseña",
+      "submit": "Restablecer Contraseña",
+      "loading": "Restableciendo...",
+      "verifyingLink": "Verificando enlace...",
+      "goToLogin": "Ir a iniciar sesión",
+      "backToHome": "Volver al inicio",
+      "errors": {
+        "invalidLink": "Enlace inválido",
+        "invalidLinkMessage": "El enlace de restablecimiento no es válido o ha expirado.",
+        "minLength": "La contraseña debe tener al menos 6 caracteres",
+        "passwordMismatch": "Las contraseñas no coinciden",
+        "resetFailed": "No se pudo restablecer la contraseña"
+      },
+      "success": {
+        "title": "Contraseña restablecida",
+        "message": "Tu contraseña ha sido restablecida exitosamente. Ahora puedes iniciar sesión."
+      }
+    },
+    "authPage": {
+      "errors": {
+        "allFieldsRequired": "Por favor, completa todos los campos",
+        "minPasswordLength": "La contraseña debe tener al menos 6 caracteres",
+        "acceptTermsRequired": "Debes aceptar los términos y condiciones",
+        "invalidToken": "No se recibió un token válido",
+        "loginFailed": "No se pudo iniciar sesión.",
+        "registerFailed": "No se pudo registrar el usuario.",
+        "googleAuthFailed": "No se pudo autenticar con Google.",
+        "googleOriginError": "El origen no está permitido. Por favor, verifica la configuración en Google Cloud Console y añade tu dominio a los orígenes autorizados.",
+        "googleLoginFailed": "No se pudo iniciar sesión con Google."
+      },
+      "success": {
+        "loginTitle": "¡Bienvenido!",
+        "loginMessage": "Has iniciado sesión correctamente.",
+        "registerTitle": "Registro completado",
+        "registerMessage": "Revisa tu correo para activar tu cuenta antes de iniciar sesión.",
+        "googleLoginTitle": "¡Bienvenido!",
+        "googleLoginMessage": "Has iniciado sesión con Google."
+      }
+    },
+    "activateAccount": {
+      "loading": "Activando cuenta...",
+      "success": "¡Cuenta activada!",
+      "error": "Error",
+      "noToken": "No se proporcionó un token de activación.",
+      "activationFailed": "No se pudo activar la cuenta.",
+      "successMessage": "Ya puedes iniciar sesión en la aplicación o en la web.",
+      "loginButton": "Iniciar sesión",
+      "goHomeButton": "Ir al inicio"
+    },
+    "deleteAccount": {
+      "pageTitle": "Eliminación de Cuenta y Datos Personales",
+      "pageSubtitle": "Solicita la eliminación completa de tu cuenta y todos tus datos personales",
+      "badge": "Eliminación de Datos de",
+      "importantInfo": {
+        "title": "Información importante sobre la eliminación",
+        "items": [
+          "La eliminación de tu cuenta es irreversible",
+          "Se eliminarán todos tus datos personales, historial y ParkiPoints",
+          "No podrás recuperar tu cuenta ni tus datos una vez eliminados",
+          "El proceso puede tardar hasta 30 días en completarse",
+          "Te contactaremos para confirmar la eliminación"
+        ]
+      },
+      "userIdentified": {
+        "title": "Usuario identificado",
+        "message": "Hemos detectado que tienes una sesión activa. Tu email ha sido pre-rellenado automáticamente. Si este no es tu email correcto, puedes modificarlo en el formulario."
+      },
+      "form": {
+        "emailLabel": "Correo electrónico de la cuenta a eliminar *",
+        "emailPlaceholder": "tu@email.com",
+        "reasonLabel": "Motivo de la eliminación *",
+        "reasonPlaceholder": "Selecciona un motivo",
+        "reasons": {
+          "privacy": "Protección de privacidad",
+          "noUse": "Ya no uso la aplicación",
+          "dissatisfied": "No estoy satisfecho con el servicio",
+          "duplicate": "Tengo una cuenta duplicada",
+          "other": "Otro motivo"
+        },
+        "additionalInfoLabel": "Información adicional (opcional)",
+        "additionalInfoPlaceholder": "Cuéntanos más detalles sobre tu solicitud...",
+        "confirmationLabel": "Confirmo que entiendo las consecuencias:",
+        "confirmationText": "Al solicitar la eliminación de mi cuenta, todos mis datos personales, historial de uso, ParkiPoints y cualquier información asociada a mi cuenta serán eliminados permanentemente. Esta acción es irreversible y no podré recuperar mi cuenta ni mis datos.",
+        "submitButton": "Solicitar eliminación de cuenta",
+        "submitting": "Enviando solicitud..."
+      },
+      "help": {
+        "title": "¿Necesitas ayuda?",
+        "contactText": "Si tienes dudas sobre este proceso o prefieres contactarnos directamente, puedes escribirnos a",
+        "privacyText": "También puedes revisar nuestra",
+        "privacyLink": "Política de Privacidad",
+        "privacyTextEnd": "para más información sobre cómo manejamos tus datos."
+      },
+      "rgpdCompliance": "Esta solicitud cumple con los requisitos del Reglamento General de Protección de Datos (RGPD) y las políticas de Google Play Store para la eliminación de datos de usuarios.",
+      "messages": {
+        "confirmationRequired": {
+          "title": "Confirmación requerida",
+          "text": "Debes confirmar que entiendes las consecuencias de eliminar tu cuenta."
+        },
+        "success": {
+          "title": "Solicitud enviada",
+          "text": "Hemos recibido tu solicitud de eliminación de cuenta. Te contactaremos en un plazo de 30 días para confirmar la eliminación de tus datos.",
+          "button": "Entendido"
+        },
+        "error": {
+          "title": "Error",
+          "text": "Hubo un problema al enviar tu solicitud. Por favor, inténtalo de nuevo o contacta con nosotros directamente."
+        }
+      }
+    }
+  },
+  "dashboard": {
+    "title": "Panel de Usuario",
+    "tabs": {
+      "profile": "Mi Perfil",
+      "vehicles": "Mis Vehículos",
+      "history": "Historial",
+      "points": "Mis Puntos",
+      "lottery": "Sorteos"
+    },
+    "profile": {
+      "title": "Información Personal",
+      "subtitle": "Gestiona tus datos de contacto",
+      "username": "Usuario",
+      "email": "Email",
+      "phone": "Teléfono",
+      "city": "Ciudad",
+      "edit": "Editar",
+      "save": "Guardar",
+      "cancel": "Cancelar",
+      "loading": "Cargando datos...",
+      "notSpecified": "No especificado",
+      "selectCity": "Selecciona ciudad",
+      "stats": {
+        "vehicles": "Vehículos",
+        "released": "Liberados",
+        "occupied": "Ocupados"
+      },
+      "danger": {
+        "title": "Eliminar cuenta",
+        "description": "Eliminar tu cuenta borrará permanentemente todos tus datos, vehículos e historial. Esta acción no se puede deshacer.",
+        "button": "Eliminar Cuenta",
+        "confirm": {
+          "title": "¿Eliminar tu cuenta?",
+          "description": "Si ya no deseas usar ParKeando, puedes solicitar la eliminación completa de tu cuenta y todos tus datos personales.",
+          "warning": "Esta acción eliminará permanentemente:",
+          "items": {
+            "profile": "Tu perfil y datos personales",
+            "vehicles": "Todos tus vehículos registrados",
+            "history": "Tu historial de estacionamientos",
+            "points": "Tus ParkiPoints y números de sorteo",
+            "settings": "Todas las configuraciones de la app"
+          },
+          "warningMessage": "⚠️ Advertencia: Esta acción es irreversible. Se eliminarán todos tus datos, historial y ParkiPoints.",
+          "confirmButton": "Sí, eliminar cuenta",
+          "cancelButton": "Cancelar"
+        },
+        "processing": {
+          "title": "Procesando solicitud...",
+          "message": "Enviando solicitud de eliminación de cuenta"
+        },
+        "success": {
+          "title": "Solicitud enviada",
+          "message": "Revisa tu email para más información."
+        },
+        "error": {
+          "title": "Error",
+          "message": "Hubo un problema al enviar tu solicitud. Por favor, inténtalo de nuevo o contacta con nosotros directamente.",
+          "connection": "Error de conexión"
+        }
+      }
+    },
+    "vehicles": {
+      "title": "Mis Vehículos",
+      "subtitle": "Gestiona la flota de tu cuenta.",
+      "capacity": "Capacidad",
+      "addVehicle": "Añadir Vehículo",
+      "limitReached": "Límite Alcanzado",
+      "limitWarning": "Has alcanzado el límite de vehículos permitidos",
+      "empty": {
+        "title": "No tienes vehículos registrados",
+        "description": "Añade tu primer vehículo para agilizar tus reservas y mantener el control de tus servicios.",
+        "button": "Registrar mi primer vehículo"
+      },
+      "info": "Los vehículos predeterminados se seleccionarán automáticamente para tus aparcamientos. Puedes editar la información de la matrícula si cometiste un error al registrarla.",
+      "modal": {
+        "titleAdd": "Añadir vehículo",
+        "titleEdit": "Editar vehículo",
+        "plate": "Matrícula",
+        "brand": "Marca",
+        "model": "Modelo",
+        "color": "Color",
+        "selectBrand": "Selecciona una marca",
+        "selectModel": "Selecciona un modelo",
+        "selectModelFirst": "Primero selecciona una marca",
+        "selectColor": "Selecciona un color",
+        "consent": {
+          "title": "Confirmo que he leído y acepto el aviso sobre la matrícula.",
+          "message": "Al registrar su vehículo, consiente que la matrícula pueda ser visible para otros usuarios únicamente con la finalidad de identificar el coche que deja una plaza de aparcamiento y facilitar la elección del vehículo en caso de tener varios registrados.\n\nLa matrícula no se asociará a otros datos personales y no será utilizada con fines distintos a los descritos."
+        },
+        "saveChanges": "Guardar cambios",
+        "addButton": "Añadir vehículo",
+        "cancel": "Cancelar"
+      },
+      "actions": {
+        "setDefault": {
+          "title": "¿Establecer como predeterminado?",
+          "message": "El vehículo <b>{brand} {model}</b> será tu opción principal.",
+          "confirm": "Confirmar",
+          "cancel": "Cancelar",
+          "success": {
+            "title": "¡Listo!",
+            "message": "Vehículo predeterminado actualizado."
+          }
+        },
+        "delete": {
+          "title": "¿Eliminar vehículo?",
+          "message": "Esta acción no se puede deshacer.",
+          "confirm": "Sí, eliminar",
+          "cancel": "Cancelar",
+          "success": "Eliminado"
+        }
+      },
+      "messages": {
+        "loadError": "No se pudieron cargar los vehículos",
+        "saveSuccess": {
+          "title": "¡Vehículo añadido!",
+          "message": "Ya puedes gestionar tus servicios."
+        },
+        "updateSuccess": {
+          "title": "Actualizado",
+          "message": "Los datos del vehículo se han guardado."
+        },
+        "saveError": {
+          "title": "Algo salió mal",
+          "message": "No se pudo guardar el vehículo"
+        },
+        "deleteError": "No se pudo eliminar el vehículo",
+        "consentRequired": {
+          "title": "Verificación requerida",
+          "message": "Por favor, confirma que la matrícula es correcta."
+        }
+      }
+    },
+    "history": {
+      "title": "Histórico",
+      "subtitle": "Registro detallado de tus movimientos.",
+      "filter": "Filtro:",
+      "filters": {
+        "all": "Todos",
+        "released": "Liberados",
+        "occupied": "Ocupados"
+      },
+      "stats": {
+        "total": "Total",
+        "released": "Liberados",
+        "occupied": "Ocupados"
+      },
+      "empty": "No hay registros en tu historial",
+      "loading": "Cargando historial...",
+      "loadingLocation": "Cargando ubicación..."
+    },
+    "points": {
+      "title": "Mis Puntos y Reputación",
+      "currentPoints": "Puntos Actuales",
+      "reputation": "Reputación",
+      "quickActions": {
+        "title": "Acciones Rápidas",
+        "viewHistory": "Ver Historial Completo",
+        "earnPoints": "Cómo Ganar Puntos"
+      },
+      "history": {
+        "title": "Historial de Puntos",
+        "showAll": "Ver todo el historial",
+        "showLess": "Ver menos",
+        "empty": "No hay movimientos de puntos todavía",
+        "loading": "Cargando historial..."
+      }
+    },
+    "lottery": {
+      "title": "Sorteos",
+      "description": "Participa en sorteos y revisa tus participaciones.",
+      "showHistory": "Ver Histórico",
+      "hideHistory": "Ocultar Histórico",
+      "period": "Período",
+      "daysRemaining": "Días restantes",
+      "totalParticipants": "Total participantes",
+      "yourTickets": "Tus Números",
+      "ticketCount": "Tienes {{count}} números para este sorteo",
+      "noTickets": "Aún no tienes números para este sorteo. ¡Libera plazas para participar!",
+      "noActiveRaffle": "No hay sorteos activos",
+      "noActiveRaffleDesc": "En este momento no hay ningún sorteo en curso. ¡Vuelve pronto!",
+      "historyTitle": "Histórico de Sorteos",
+      "winner": "Ganador",
+      "youWon": "¡Ganaste!",
+      "yourNumbers": "Tus números",
+      "didNotParticipate": "No participaste",
+      "noHistory": "No hay sorteos completados aún"
+    }
+  },
+  "pages": {
+    "authLogin": {
+      "badge": "HOLA DE NUEVO",
+      "title": "Entra a tu mundo de estacionamiento inteligente",
+      "description": "Controla tus vehículos, revisa tu historial y comprueba tus ParkiPuntos en una interfaz más ligera y rápida. Todo bajo un mismo acceso.",
+      "features": [
+        "Inicio rápido con biometría",
+        "Alertas inteligentes en vivo",
+        "Respaldo cifrado de datos",
+        "Historial de aparcamientos"
+      ]
+    },
+    "authRegister": {
+      "badge": "BIENVENIDO",
+      "title": "Una cuenta ligera, todo tu viaje de parking conectado",
+      "description": "Diseñamos una nueva experiencia más compacta: menos pasos, validaciones claras y recordatorios en vivo para que ubiques tus plazas libremente.",
+      "features": [
+        "Perfiles y matrículas en minutos",
+        "Notificaciones contextuales",
+        "ParkiPuntos conectados a sorteos",
+        "Privacidad y control granular"
+      ]
+    },
+    "contact": {
+      "backToHome": "Volver al inicio",
+      "badge": "Contacto",
+      "title": "Contáctanos",
+      "subtitle": "¿Tienes alguna pregunta o sugerencia? Estamos aquí para ayudarte. Completa el formulario y nos pondremos en contacto contigo lo antes posible.",
+      "form": {
+        "nameLabel": "Nombre completo",
+        "namePlaceholder": "Tu nombre",
+        "emailLabel": "Correo electrónico",
+        "emailPlaceholder": "tu@email.com",
+        "subjectLabel": "Asunto",
+        "subjectPlaceholder": "¿Sobre qué nos quieres contactar?",
+        "messageLabel": "Mensaje",
+        "messagePlaceholder": "Escribe tu mensaje aquí...",
+        "submitButton": "Enviar mensaje",
+        "submitting": "Enviando..."
+      },
+      "email": "Email",
+      "emailAddress": "info@parkeando.com",
+      "messages": {
+        "success": {
+          "title": "¡Mensaje enviado!",
+          "text": "Nos pondremos en contacto contigo pronto."
+        },
+        "error": {
+          "title": "Error",
+          "text": "No se pudo enviar el mensaje. Por favor, inténtalo de nuevo."
+        }
+      }
+    },
+    "help": {
+      "backToHome": "Volver al inicio",
+      "title": "Centro de Ayuda",
+      "subtitle": "Encuentra respuestas a todas tus preguntas sobre ParKeando",
+      "immediateHelp": {
+        "title": "¿Necesitas ayuda inmediata?",
+        "email": "Email",
+        "emailAddress": "info@parkeando.es"
+      },
+      "notFound": {
+        "title": "¿No encontraste lo que buscabas?",
+        "subtitle": "Nuestro equipo de soporte está disponible para ayudarte",
+        "button": "Contactar Soporte"
+      }
+    },
+    "bases": {
+      "backToHome": "Volver al inicio",
+      "badge": "Promociones · Bases legales",
+      "title": "Bases del sorteo ParKeando",
+      "lastUpdate": "Última actualización:",
+      "indexTitle": "Índice de contenidos",
+      "helpText": "Si tienes dudas sobre estas bases, puedes escribirnos a"
+    },
+    "terms": {
+      "backToHome": "Volver al inicio",
+      "badge": "Legal · Términos",
+      "title": "Términos y Condiciones de Uso",
+      "lastUpdate": "Última actualización:",
+      "indexTitle": "Índice de contenidos",
+      "helpText": "Si tienes dudas sobre estos términos, puedes escribirnos a",
+      "alsoConsult": "También puedes consultar nuestra",
+      "privacyPolicy": "Política de Privacidad",
+      "and": "y nuestra",
+      "cookiesPolicy": "Política de Cookies"
+    },
+    "privacy": {
+      "backToHome": "Volver al inicio",
+      "badge": "Legal",
+      "title": "Política de Privacidad de ParKeando",
+      "lastUpdate": "Última actualización:",
+      "indexTitle": "Contenido",
+      "helpText": "Si tienes dudas sobre esta política, contáctanos en",
+      "alsoConsult": "También puedes consultar nuestros",
+      "termsAndConditions": "Términos y Condiciones",
+      "and": "y nuestra",
+      "cookiesPolicy": "Política de Cookies"
+    },
+    "cookiesPage": {
+      "backToHome": "Volver al inicio",
+      "badge": "Legal · Cookies",
+      "title": "Política de Cookies de ParKeando",
+      "lastUpdate": "Última actualización:",
+      "indexTitle": "Índice de contenidos",
+      "helpText": "Para más información sobre privacidad, consulta nuestra",
+      "privacyPolicy": "Política de Privacidad",
+      "and": "y nuestros",
+      "termsAndConditions": "Términos y Condiciones"
+    }
+  },
+  "faq": {
+    "categories": {
+      "general": {
+        "title": "Preguntas Generales",
+        "questions": [
+          {
+            "q": "¿Qué es ParKeando?",
+            "a": "ParKeando es una plataforma colaborativa y gratuita que te ayuda a encontrar estacionamiento más fácilmente, conectando a conductores que dejan un espacio con aquellos que lo están buscando."
+          },
+          {
+            "q": "¿Cómo funciona el sistema?",
+            "a": "Los usuarios que van a dejar un espacio de estacionamiento lo indican en la app, y aquellos que buscan aparcar pueden ver estas ubicaciones en tiempo real. Es una comunidad colaborativa donde todos nos ayudamos."
+          },
+          {
+            "q": "¿Dónde está disponible ParKeando?",
+            "a": "Actualmente operamos en las principales ciudades de España. Estamos en constante expansión para llegar a más ubicaciones."
+          }
+        ]
+      },
+      "uso": {
+        "title": "Uso de la App",
+        "questions": [
+          {
+            "q": "¿Cómo indico que voy a dejar mi plaza?",
+            "a": "Simplemente pulsa el botón 'Liberar Plaza' en la app y confirma tu ubicación. Otros usuarios podrán ver tu espacio disponible en el mapa."
+          },
+          {
+            "q": "¿Cómo encuentro espacios disponibles?",
+            "a": "Abre la app y verás un mapa con todas las plazas que otros usuarios van a dejar próximamente. Los colores indican cuándo estarán disponibles."
+          },
+          {
+            "q": "¿La aplicación es gratuita?",
+            "a": "Sí, ParKeando es completamente gratuita. Creemos en el poder de la colaboración entre conductores para hacer más fácil el estacionamiento."
+          },
+          {
+            "q": "¿Qué significa el sistema de puntos?",
+            "a": "Ganas puntos cada vez que ayudas a otros usuarios indicando que vas a dejar tu plaza. ¡Es nuestra forma de agradecer tu colaboración con la comunidad!"
+          }
+        ]
+      }
+    }
+  },
+  "cookies": {
+    "banner": {
+      "title": "Cookies",
+      "message": "Usamos cookies para mejorar tu experiencia. Al continuar, aceptas nuestra política de privacidad.",
+      "configure": "Configurar",
+      "accept": "Aceptar",
+      "rejectAll": "Rechazar todo"
+    },
+    "settings": {
+      "title": "Preferencias",
+      "titleSuffix": "de Cookies",
+      "subtitle": "Personaliza tu experiencia de navegación.",
+      "essential": {
+        "title": "Esenciales",
+        "badge": "Requerido",
+        "description": "Necesarias para que el sitio funcione correctamente. No se pueden desactivar."
+      },
+      "analytics": {
+        "title": "Analíticas",
+        "description": "Nos ayudan a mejorar nuestro sitio web entendiendo cómo lo usas."
+      },
+      "marketing": {
+        "title": "Marketing",
+        "description": "Permiten mostrarte publicidad personalizada según tus intereses."
+      },
+      "cancel": "Cancelar",
+      "save": "Guardar preferencias"
+    }
+  },
+  "common": {
+    "loading": "Cargando...",
+    "save": "Guardar",
+    "cancel": "Cancelar",
+    "edit": "Editar",
+    "delete": "Eliminar",
+    "confirm": "Confirmar",
+    "close": "Cerrar",
+    "error": "Error",
+    "success": "Éxito",
+    "warning": "Advertencia",
+    "info": "Información"
+  }
+}

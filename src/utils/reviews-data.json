@@ -1,0 +1,156 @@
+[
+  {
+    "name": "María González",
+    "time": "6 meses",
+    "initial": "M",
+    "color": "bg-green-500",
+    "text": "ParKeando me ha salvado muchísimo tiempo. Ya no tengo que dar vueltas buscando estacionamiento en el centro de la ciudad. La app es súper intuitiva y siempre encuentro espacios disponibles."
+  },
+  {
+    "name": "Carlos Rodríguez",
+    "time": "1 año",
+    "initial": "C",
+    "color": "bg-blue-500",
+    "text": "La app es súper fácil de usar y los precios son muy competitivos. Definitivamente la recomiendo. He ahorrado mucho dinero y tiempo desde que la uso."
+  },
+  {
+    "name": "Ana Martínez",
+    "time": "8 meses",
+    "initial": "A",
+    "color": "bg-purple-500",
+    "text": "Excelente servicio. Poder reservar con anticipación es genial, especialmente para eventos importantes. Nunca más llego tarde por buscar estacionamiento."
+  },
+  {
+    "name": "Luis Fernández",
+    "time": "4 meses",
+    "initial": "L",
+    "color": "bg-red-500",
+    "text": "Me encanta la función de pago automático. Solo aparco y me voy, sin preocuparme por monedas o tickets. La tecnología realmente facilita la vida."
+  },
+  {
+    "name": "Sofia Herrera",
+    "time": "10 meses",
+    "initial": "S",
+    "color": "bg-yellow-500",
+    "text": "Como madre trabajadora, ParKeando me ha dado tranquilidad. Siempre sé que tendré un lugar seguro donde aparcar cerca de la guardería de mis hijos."
+  },
+  {
+    "name": "Diego Morales",
+    "time": "2 años",
+    "initial": "D",
+    "color": "bg-indigo-500",
+    "text": "Soy usuario desde el inicio y he visto cómo ha mejorado la app. El servicio al cliente es excelente y siempre están añadiendo nuevas funciones útiles."
+  },
+  {
+    "name": "Laura Pérez",
+    "time": "3 meses",
+    "initial": "L",
+    "color": "bg-pink-500",
+    "text": "Uso ParKeando todos los días para ir al trabajo. Siempre encuentro sitio cerca y me ahorro un montón de estrés por las mañanas."
+  },
+  {
+    "name": "Javier Torres",
+    "time": "1 año y medio",
+    "initial": "J",
+    "color": "bg-teal-500",
+    "text": "Nunca pensé que una app de aparcamiento pudiera ser tan útil. Incluso en días de mucha afluencia, he podido aparcar sin problema."
+  },
+  {
+    "name": "Isabel Ruiz",
+    "time": "7 meses",
+    "initial": "I",
+    "color": "bg-orange-500",
+    "text": "Lo que más me gusta es que puedo ver la disponibilidad en tiempo real. Me evita perder tiempo dando vueltas sin sentido."
+  },
+  {
+    "name": "Pedro Sánchez",
+    "time": "9 meses",
+    "initial": "P",
+    "color": "bg-cyan-500",
+    "text": "Vivo en una zona complicada para aparcar y desde que uso ParKeando mi vida ha cambiado. ¡Ya no me estreso al volver a casa!"
+  },
+  {
+    "name": "Elena Navarro",
+    "time": "5 meses",
+    "initial": "E",
+    "color": "bg-lime-500",
+    "text": "La app es rápida, sencilla y muy eficaz. Además, el soporte técnico respondió súper rápido cuando tuve una duda."
+  },
+  {
+    "name": "Tomás Herrera",
+    "time": "11 meses",
+    "initial": "T",
+    "color": "bg-rose-500",
+    "text": "Trabajo como repartidor y ParKeando me ha facilitado mucho el día a día. Puedo aparcar cerca de mis destinos y ganar tiempo."
+  },
+  {
+    "name": "Nuria Vidal",
+    "time": "1 año",
+    "initial": "N",
+    "color": "bg-amber-500",
+    "text": "Funciona de maravilla tanto en grandes ciudades como en zonas más pequeñas. Muy recomendable para conductores frecuentes."
+  },
+  {
+    "name": "Alberto Jiménez",
+    "time": "6 semanas",
+    "initial": "A",
+    "color": "bg-fuchsia-500",
+    "text": "No conocía ParKeando hasta hace poco y ya no puedo vivir sin ella. Es como tener un sitio reservado siempre que lo necesito."
+  },
+  {
+    "name": "Raquel Ortega",
+    "time": "2 meses",
+    "initial": "R",
+    "color": "bg-sky-500",
+    "text": "Ideal para escapadas de fin de semana. Encontré parking en zonas turísticas sin problema. Muy recomendable para viajeros."
+  },
+  {
+    "name": "Víctor Gómez",
+    "time": "1 año y 3 meses",
+    "initial": "V",
+    "color": "bg-emerald-500",
+    "text": "Soy taxista y esta app me ha ayudado a planificar mejor mis rutas y tiempos de descanso. Funciona genial en toda la ciudad."
+  },
+  {
+    "name": "Cristina León",
+    "time": "14 meses",
+    "initial": "C",
+    "color": "bg-violet-500",
+    "text": "Desde que la uso, llego puntual a todas partes. Reservar plaza con antelación es lo mejor que le ha pasado a mi rutina diaria."
+  },
+  {
+    "name": "Óscar Méndez",
+    "time": "3 semanas",
+    "initial": "Ó",
+    "color": "bg-gray-500",
+    "text": "Pensé que sería una app más, pero ParKeando realmente cumple. Muy útil para eventos o conciertos con mucha gente."
+  },
+  {
+    "name": "Marta Aguilar",
+    "time": "2 años y medio",
+    "initial": "M",
+    "color": "bg-red-400",
+    "text": "Conduzco poco, pero cuando lo hago, quiero evitar líos. Esta app me da tranquilidad y confianza al moverme por la ciudad."
+  },
+  {
+    "name": "Gabriel Ramírez",
+    "time": "6 meses",
+    "initial": "G",
+    "color": "bg-blue-400",
+    "text": "Lo uso a diario en el centro. A veces parece magia cómo encuentro huecos en zonas imposibles. Gran trabajo del equipo."
+  },
+  {
+    "name": "Patricia Salas",
+    "time": "1 mes",
+    "initial": "P",
+    "color": "bg-indigo-400",
+    "text": "La app me vino genial durante mis vacaciones. Fácil de usar y con ubicaciones muy convenientes. Un acierto total."
+  },
+  {
+    "name": "Hugo Delgado",
+    "time": "9 meses",
+    "initial": "H",
+    "color": "bg-yellow-400",
+    "text": "No soy muy amigo de la tecnología, pero esta app es súper clara y directa. Si yo puedo usarla, cualquiera puede."
+  }
+]

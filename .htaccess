@@ -1,0 +1,66 @@
+# ----------------------------------------------------
+
+# 1. Configuraciones Generales de Seguridad y Directorios
+
+# ----------------------------------------------------
+
+# Deshabilita el listado de archivos del directorio (Seguridad)
+
+Options -Indexes
+
+# ----------------------------------------------------
+
+# 2. Configuración CORS (Cross-Origin Resource Sharing)
+
+# IMPORTANTE: ¡Configura esto con precisión!
+
+# ----------------------------------------------------
+
+<IfModule mod_headers.c>
+    # Permite CUALQUIER origen para probar la funcionalidad
+    Header set Access-Control-Allow-Origin "*"
+    Header set Access-Control-Allow-Methods "GET, POST, OPTIONS, PUT, DELETE"
+    Header set Access-Control-Allow-Headers "Content-Type, Authorization, X-Requested-With"
+</IfModule>
+
+# Manejar la solicitud OPTIONS (Preflight)
+RewriteEngine On
+RewriteCond %{REQUEST_METHOD} OPTIONS
+RewriteRule ^(.*)$ - [R=200,L]
+
+# ----------------------------------------------------
+
+# 3. Reglas de Reescriba de URL y Manejo de OPTIONS (Preflight)
+
+# ----------------------------------------------------
+
+RewriteEngine On
+
+# 3a. Manejo de la Solicitud PREFLIGHT (OPTIONS)
+
+# Esta es la parte crucial para solucionar tu error CORS
+
+# Si el método es OPTIONS, respondemos con 200 y detenemos el procesamiento
+
+RewriteCond %{REQUEST_METHOD} OPTIONS
+RewriteRule ^(.\*)$ $1 [R=200,L]
+
+# 3b. Redirección de "www" a "no-www" (Opcional, pero recomendado)
+
+# Esto asegura que el acceso sea siempre a api.parkeando.es y no www.api...
+
+RewriteCond %{HTTP_HOST} ^www\.(._)$ [NC]
+RewriteRule ^(._)$ http://%1/$1 [R=301,L]
+
+# 3c. Reglas de reescritura para enrutar todas las peticiones a index.php
+
+# Si el recurso solicitado no es un archivo real y no es un directorio real...
+
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-d
+
+# ... entonces redirige todo a tu archivo principal (ej. index.php)
+
+# Ajusta 'index.php' si tu framework usa otro punto de entrada (como 'app.php')
+
+RewriteRule ^(.\*)$ index.php [L,QSA]

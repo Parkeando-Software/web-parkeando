@@ -1,0 +1,686 @@
+{
+  "nav": {
+    "home": "Home",
+    "features": "Features",
+    "screenshots": "Screenshots",
+    "reviews": "Reviews",
+    "download": "Download"
+  },
+  "header": {
+    "login": "Login",
+    "register": "Sign Up",
+    "myProfile": "My Profile",
+    "openMenu": "Open menu"
+  },
+  "hero": {
+    "badge": "More and more users trust us",
+    "title": {
+      "part1": "Find your",
+      "highlight": "parking spot",
+      "part2": "on the street, quickly."
+    },
+    "subtitle": {
+      "part1": "The collaborative app between drivers, to find street parking in any city.",
+      "part2": "No circles, no stress, no complications."
+    },
+    "cta": "Download Free",
+    "stats": {
+      "activeUsers": "Active Users",
+      "parkings": "Parking Spots",
+      "rating": "Rating"
+    }
+  },
+  "features": {
+    "badge": "Main Features",
+    "title": {
+      "part1": "Everything you need in",
+      "highlight": "one app"
+    },
+    "subtitle": "ParKeando combines advanced technology with simplicity to offer you the best parking experience",
+    "items": {
+      "realTimeLocation": {
+        "title": "Real-Time Location",
+        "description": "Find available parking spots near you with advanced GPS precision"
+      },
+      "findParking": {
+        "title": "Find your spot",
+        "description": "Locate free spots left by other drivers"
+      },
+      "parkiPoints": {
+        "title": "ParkiPoints",
+        "description": "Report free spots, accumulate ParkiPoints and get entries to participate in our raffles"
+      },
+      "intuitiveApp": {
+        "title": "Intuitive App",
+        "description": "Modern and easy-to-use interface, designed for maximum simplicity"
+      },
+      "techRaffle": {
+        "title": "Tech Raffle",
+        "description": "Participate in amazing monthly raffles, loaded with technology"
+      },
+      "smartNotifications": {
+        "title": "Smart Notifications",
+        "description": "Personalized alerts about reservations, offers and reminders"
+      }
+    },
+    "cta": {
+      "title": "Ready to revolutionize your parking experience?",
+      "subtitle": "Join thousands of drivers who already enjoy the convenience of ParKeando",
+      "button": "Get Started Now"
+    }
+  },
+  "screenshots": {
+    "title": "App Screenshots",
+    "subtitle": "Explore the main screens of the application."
+  },
+  "reviews": {
+    "title": "What our users say",
+    "subtitle": "Thousands of satisfied users already trust ParKeando"
+  },
+  "download": {
+    "title": {
+      "part1": "Download",
+      "highlight": "ParKeando",
+      "part2": "now"
+    },
+    "subtitle": "Join thousands of users who already enjoy the convenience of finding parking easily. Available free on all platforms.",
+    "buttons": {
+      "appStore": {
+        "small": "Download on the",
+        "main": "App Store"
+      },
+      "googlePlay": {
+        "small": "Get it on",
+        "main": "Google Play"
+      }
+    },
+    "stats": {
+      "downloads": "Downloads",
+      "rating": "Average rating",
+      "parkings": "Parking Spots",
+      "support": "Support available"
+    },
+    "features": {
+      "title": "Everything you need in one app",
+      "items": [
+        "Simple and intuitive interface",
+        "Find parking in seconds",
+        "Collaborative between drivers",
+        "Completely free",
+        "GPS navigation included",
+        "Parking history"
+      ]
+    },
+    "cta": {
+      "title": "What are you waiting for to get started?",
+      "subtitle": "Download ParKeando today and never waste time looking for parking again",
+      "button": "Download Free Now"
+    }
+  },
+  "footer": {
+    "description": "The smartest solution to find parking in your city.",
+    "sections": {
+      "product": {
+        "title": "Product",
+        "features": "Features",
+        "platforms": "App/Web"
+      },
+      "support": {
+        "title": "Support",
+        "helpCenter": "Help Center",
+        "contact": "Contact"
+      },
+      "legal": {
+        "title": "Legal",
+        "privacy": "Privacy",
+        "terms": "Terms",
+        "cookies": "Cookies"
+      }
+    },
+    "copyright": "All rights reserved.",
+    "cookiePreferences": "Cookie preferences"
+  },
+  "auth": {
+    "login": {
+      "title": "Sign In",
+      "email": "Email",
+      "password": "Password",
+      "submit": "Sign In",
+      "loading": "Loading...",
+      "forgotPassword": "Forgot your password?",
+      "googleButton": "Sign in with Google"
+    },
+    "register": {
+      "title": "Create Account",
+      "username": "Username",
+      "email": "Email",
+      "password": "Password",
+      "confirmPassword": "Confirm password",
+      "acceptTerms": "I accept the",
+      "terms": "Terms",
+      "and": "and",
+      "privacy": "Privacy Policy",
+      "submit": "Create account",
+      "loading": "Creating account...",
+      "googleButton": "Sign up with Google",
+      "errors": {
+        "passwordMismatch": "Passwords do not match",
+        "acceptTermsRequired": "You must accept the terms and conditions"
+      }
+    },
+    "forgotPassword": {
+      "title": "Recover password",
+      "email": "Email",
+      "submit": "Send link",
+      "loading": "Sending...",
+      "backToLogin": "Back to sign in",
+      "errors": {
+        "emailRequired": "Enter your email",
+        "sendFailed": "Could not send email"
+      },
+      "success": {
+        "title": "Sent",
+        "message": "Check your email for the reset link"
+      }
+    },
+    "resetPassword": {
+      "title": "New Password",
+      "subtitle": "Enter your new password for",
+      "newPassword": "New Password",
+      "confirmPassword": "Confirm Password",
+      "submit": "Reset Password",
+      "loading": "Resetting...",
+      "verifyingLink": "Verifying link...",
+      "goToLogin": "Go to sign in",
+      "backToHome": "Back to home",
+      "errors": {
+        "invalidLink": "Invalid link",
+        "invalidLinkMessage": "The reset link is invalid or has expired.",
+        "minLength": "Password must be at least 6 characters",
+        "passwordMismatch": "Passwords do not match",
+        "resetFailed": "Could not reset password"
+      },
+      "success": {
+        "title": "Password reset",
+        "message": "Your password has been successfully reset. You can now sign in."
+      }
+    },
+    "authPage": {
+      "errors": {
+        "allFieldsRequired": "Please complete all fields",
+        "minPasswordLength": "Password must be at least 6 characters",
+        "acceptTermsRequired": "You must accept the terms and conditions",
+        "invalidToken": "No valid token received",
+        "loginFailed": "Could not sign in.",
+        "registerFailed": "Could not register user.",
+        "googleAuthFailed": "Could not authenticate with Google.",
+        "googleOriginError": "Origin not allowed. Please verify the configuration in Google Cloud Console and add your domain to authorized origins.",
+        "googleLoginFailed": "Could not sign in with Google."
+      },
+      "success": {
+        "loginTitle": "Welcome!",
+        "loginMessage": "You have successfully signed in.",
+        "registerTitle": "Registration completed",
+        "registerMessage": "Check your email to activate your account before signing in.",
+        "googleLoginTitle": "Welcome!",
+        "googleLoginMessage": "You have signed in with Google."
+      }
+    },
+    "activateAccount": {
+      "loading": "Activating account...",
+      "success": "Account activated!",
+      "error": "Error",
+      "noToken": "No activation token provided.",
+      "activationFailed": "Could not activate account.",
+      "successMessage": "You can now sign in to the app or web.",
+      "loginButton": "Sign in",
+      "goHomeButton": "Go to home"
+    },
+    "deleteAccount": {
+      "pageTitle": "Account and Personal Data Deletion",
+      "pageSubtitle": "Request complete deletion of your account and all your personal data",
+      "badge": "Data Deletion from",
+      "importantInfo": {
+        "title": "Important information about deletion",
+        "items": [
+          "Account deletion is irreversible",
+          "All your personal data, history and ParkiPoints will be deleted",
+          "You will not be able to recover your account or data once deleted",
+          "The process may take up to 30 days to complete",
+          "We will contact you to confirm deletion"
+        ]
+      },
+      "userIdentified": {
+        "title": "User identified",
+        "message": "We detected that you have an active session. Your email has been pre-filled automatically. If this is not your correct email, you can modify it in the form."
+      },
+      "form": {
+        "emailLabel": "Email of the account to delete *",
+        "emailPlaceholder": "your@email.com",
+        "reasonLabel": "Reason for deletion *",
+        "reasonPlaceholder": "Select a reason",
+        "reasons": {
+          "privacy": "Privacy protection",
+          "noUse": "I no longer use the app",
+          "dissatisfied": "I'm not satisfied with the service",
+          "duplicate": "I have a duplicate account",
+          "other": "Other reason"
+        },
+        "additionalInfoLabel": "Additional information (optional)",
+        "additionalInfoPlaceholder": "Tell us more details about your request...",
+        "confirmationLabel": "I confirm that I understand the consequences:",
+        "confirmationText": "By requesting deletion of my account, all my personal data, usage history, ParkiPoints and any information associated with my account will be permanently deleted. This action is irreversible and I will not be able to recover my account or data.",
+        "submitButton": "Request account deletion",
+        "submitting": "Sending request..."
+      },
+      "help": {
+        "title": "Need help?",
+        "contactText": "If you have questions about this process or prefer to contact us directly, you can write to us at",
+        "privacyText": "You can also review our",
+        "privacyLink": "Privacy Policy",
+        "privacyTextEnd": "for more information about how we handle your data."
+      },
+      "rgpdCompliance": "This request complies with the requirements of the General Data Protection Regulation (GDPR) and Google Play Store policies for user data deletion.",
+      "messages": {
+        "confirmationRequired": {
+          "title": "Confirmation required",
+          "text": "You must confirm that you understand the consequences of deleting your account."
+        },
+        "success": {
+          "title": "Request sent",
+          "text": "We have received your account deletion request. We will contact you within 30 days to confirm the deletion of your data.",
+          "button": "Understood"
+        },
+        "error": {
+          "title": "Error",
+          "text": "There was a problem sending your request. Please try again or contact us directly."
+        }
+      }
+    }
+  },
+  "dashboard": {
+    "title": "User Dashboard",
+    "tabs": {
+      "profile": "My Profile",
+      "vehicles": "My Vehicles",
+      "history": "History",
+      "points": "My Points",
+      "lottery": "Raffles"
+    },
+    "profile": {
+      "title": "Personal Information",
+      "subtitle": "Manage your contact details",
+      "username": "Username",
+      "email": "Email",
+      "phone": "Phone",
+      "city": "City",
+      "edit": "Edit",
+      "save": "Save",
+      "cancel": "Cancel",
+      "loading": "Loading data...",
+      "notSpecified": "Not specified",
+      "selectCity": "Select city",
+      "stats": {
+        "vehicles": "Vehicles",
+        "released": "Released",
+        "occupied": "Occupied"
+      },
+      "danger": {
+        "title": "Delete account",
+        "description": "Deleting your account will permanently erase all your data, vehicles and history. This action cannot be undone.",
+        "button": "Delete Account",
+        "confirm": {
+          "title": "Delete your account?",
+          "description": "If you no longer wish to use ParKeando, you can request complete deletion of your account and all your personal data.",
+          "warning": "This action will permanently delete:",
+          "items": {
+            "profile": "Your profile and personal data",
+            "vehicles": "All your registered vehicles",
+            "history": "Your parking history",
+            "points": "Your ParkiPoints and raffle entries",
+            "settings": "All app settings"
+          },
+          "warningMessage": "⚠️ Warning: This action is irreversible. All your data, history and ParkiPoints will be deleted.",
+          "confirmButton": "Yes, delete account",
+          "cancelButton": "Cancel"
+        },
+        "processing": {
+          "title": "Processing request...",
+          "message": "Sending account deletion request"
+        },
+        "success": {
+          "title": "Request sent",
+          "message": "Check your email for more information."
+        },
+        "error": {
+          "title": "Error",
+          "message": "There was a problem sending your request. Please try again or contact us directly.",
+          "connection": "Connection error"
+        }
+      }
+    },
+    "vehicles": {
+      "title": "My Vehicles",
+      "subtitle": "Manage your account fleet.",
+      "capacity": "Capacity",
+      "addVehicle": "Add Vehicle",
+      "limitReached": "Limit Reached",
+      "limitWarning": "You have reached the allowed vehicle limit",
+      "empty": {
+        "title": "You have no registered vehicles",
+        "description": "Add your first vehicle to streamline your reservations and keep control of your services.",
+        "button": "Register my first vehicle"
+      },
+      "info": "Default vehicles will be automatically selected for your parkings. You can edit the license plate information if you made a mistake when registering it.",
+      "modal": {
+        "titleAdd": "Add vehicle",
+        "titleEdit": "Edit vehicle",
+        "plate": "License Plate",
+        "brand": "Brand",
+        "model": "Model",
+        "color": "Color",
+        "selectBrand": "Select a brand",
+        "selectModel": "Select a model",
+        "selectModelFirst": "First select a brand",
+        "selectColor": "Select a color",
+        "consent": {
+          "title": "I confirm that I have read and accept the notice about the license plate.",
+          "message": "By registering your vehicle, you consent that the license plate may be visible to other users solely for the purpose of identifying the car leaving a parking spot and facilitating vehicle selection in case you have several registered.\n\nThe license plate will not be associated with other personal data and will not be used for purposes other than those described."
+        },
+        "saveChanges": "Save changes",
+        "addButton": "Add vehicle",
+        "cancel": "Cancel"
+      },
+      "actions": {
+        "setDefault": {
+          "title": "Set as default?",
+          "message": "The vehicle <b>{brand} {model}</b> will be your main option.",
+          "confirm": "Confirm",
+          "cancel": "Cancel",
+          "success": {
+            "title": "Done!",
+            "message": "Default vehicle updated."
+          }
+        },
+        "delete": {
+          "title": "Delete vehicle?",
+          "message": "This action cannot be undone.",
+          "confirm": "Yes, delete",
+          "cancel": "Cancel",
+          "success": "Deleted"
+        }
+      },
+      "messages": {
+        "loadError": "Could not load vehicles",
+        "saveSuccess": {
+          "title": "Vehicle added!",
+          "message": "You can now manage your services."
+        },
+        "updateSuccess": {
+          "title": "Updated",
+          "message": "Vehicle data has been saved."
+        },
+        "saveError": {
+          "title": "Something went wrong",
+          "message": "Could not save vehicle"
+        },
+        "deleteError": "Could not delete vehicle",
+        "consentRequired": {
+          "title": "Verification required",
+          "message": "Please confirm that the license plate is correct."
+        }
+      }
+    },
+    "history": {
+      "title": "History",
+      "subtitle": "Detailed record of your movements.",
+      "filter": "Filter:",
+      "filters": {
+        "all": "All",
+        "released": "Released",
+        "occupied": "Occupied"
+      },
+      "stats": {
+        "total": "Total",
+        "released": "Released",
+        "occupied": "Occupied"
+      },
+      "empty": "No records in your history",
+      "loading": "Loading history...",
+      "loadingLocation": "Loading location..."
+    },
+    "points": {
+      "title": "My Points and Reputation",
+      "currentPoints": "Current Points",
+      "reputation": "Reputation",
+      "quickActions": {
+        "title": "Quick Actions",
+        "viewHistory": "View Full History",
+        "earnPoints": "How to Earn Points"
+      },
+      "history": {
+        "title": "Points History",
+        "showAll": "View full history",
+        "showLess": "View less",
+        "empty": "No points movements yet",
+        "loading": "Loading history..."
+      }
+    },
+    "lottery": {
+      "title": "Raffles",
+      "description": "Participate in raffles and check your entries.",
+      "showHistory": "View History",
+      "hideHistory": "Hide History",
+      "period": "Period",
+      "daysRemaining": "Days remaining",
+      "totalParticipants": "Total participants",
+      "yourTickets": "Your Numbers",
+      "ticketCount": "You have {{count}} numbers for this raffle",
+      "noTickets": "You don't have any numbers for this raffle yet. Release parking spots to participate!",
+      "noActiveRaffle": "No active raffles",
+      "noActiveRaffleDesc": "There are no raffles in progress at the moment. Come back soon!",
+      "historyTitle": "Raffle History",
+      "winner": "Winner",
+      "youWon": "You won!",
+      "yourNumbers": "Your numbers",
+      "didNotParticipate": "You didn't participate",
+      "noHistory": "No completed raffles yet"
+    }
+  },
+  "pages": {
+    "authLogin": {
+      "badge": "WELCOME BACK",
+      "title": "Enter your smart parking world",
+      "description": "Control your vehicles, review your history and check your ParkiPoints in a lighter and faster interface. All under one access.",
+      "features": [
+        "Quick start with biometrics",
+        "Smart live alerts",
+        "Encrypted data backup",
+        "Parking history"
+      ]
+    },
+    "authRegister": {
+      "badge": "WELCOME",
+      "title": "A lightweight account, your entire parking journey connected",
+      "description": "We designed a new, more compact experience: fewer steps, clear validations and live reminders so you can locate your spots freely.",
+      "features": [
+        "Profiles and plates in minutes",
+        "Contextual notifications",
+        "ParkiPoints connected to raffles",
+        "Privacy and granular control"
+      ]
+    },
+    "contact": {
+      "backToHome": "Back to home",
+      "badge": "Contact",
+      "title": "Contact Us",
+      "subtitle": "Have a question or suggestion? We're here to help. Fill out the form and we'll get back to you as soon as possible.",
+      "form": {
+        "nameLabel": "Full name",
+        "namePlaceholder": "Your name",
+        "emailLabel": "Email address",
+        "emailPlaceholder": "your@email.com",
+        "subjectLabel": "Subject",
+        "subjectPlaceholder": "What do you want to contact us about?",
+        "messageLabel": "Message",
+        "messagePlaceholder": "Write your message here...",
+        "submitButton": "Send message",
+        "submitting": "Sending..."
+      },
+      "email": "Email",
+      "emailAddress": "info@parkeando.com",
+      "messages": {
+        "success": {
+          "title": "Message sent!",
+          "text": "We'll get in touch with you soon."
+        },
+        "error": {
+          "title": "Error",
+          "text": "Could not send message. Please try again."
+        }
+      }
+    },
+    "help": {
+      "backToHome": "Back to home",
+      "title": "Help Center",
+      "subtitle": "Find answers to all your questions about ParKeando",
+      "immediateHelp": {
+        "title": "Need immediate help?",
+        "email": "Email",
+        "emailAddress": "info@parkeando.es"
+      },
+      "notFound": {
+        "title": "Didn't find what you were looking for?",
+        "subtitle": "Our support team is available to help you",
+        "button": "Contact Support"
+      }
+    },
+    "bases": {
+      "backToHome": "Back to home",
+      "badge": "Promotions · Legal Terms",
+      "title": "ParKeando Raffle Rules",
+      "lastUpdate": "Last update:",
+      "indexTitle": "Table of contents",
+      "helpText": "If you have questions about these rules, you can write to us at"
+    },
+    "terms": {
+      "backToHome": "Back to home",
+      "badge": "Legal · Terms",
+      "title": "Terms and Conditions of Use",
+      "lastUpdate": "Last update:",
+      "indexTitle": "Table of contents",
+      "helpText": "If you have questions about these terms, you can write to us at",
+      "alsoConsult": "You can also check our",
+      "privacyPolicy": "Privacy Policy",
+      "and": "and our",
+      "cookiesPolicy": "Cookie Policy"
+    },
+    "privacy": {
+      "backToHome": "Back to home",
+      "badge": "Legal",
+      "title": "ParKeando Privacy Policy",
+      "lastUpdate": "Last update:",
+      "indexTitle": "Content",
+      "helpText": "If you have questions about this policy, contact us at",
+      "alsoConsult": "You can also check our",
+      "termsAndConditions": "Terms and Conditions",
+      "and": "and our",
+      "cookiesPolicy": "Cookie Policy"
+    },
+    "cookiesPage": {
+      "backToHome": "Back to home",
+      "badge": "Legal · Cookies",
+      "title": "ParKeando Cookie Policy",
+      "lastUpdate": "Last update:",
+      "indexTitle": "Table of contents",
+      "helpText": "For more information about privacy, check our",
+      "privacyPolicy": "Privacy Policy",
+      "and": "and our",
+      "termsAndConditions": "Terms and Conditions"
+    }
+  },
+  "faq": {
+    "categories": {
+      "general": {
+        "title": "General Questions",
+        "questions": [
+          {
+            "q": "What is ParKeando?",
+            "a": "ParKeando is a free collaborative platform that helps you find parking more easily, connecting drivers who are leaving a space with those who are looking for one."
+          },
+          {
+            "q": "How does the system work?",
+            "a": "Users who are about to leave a parking space indicate it in the app, and those looking to park can see these locations in real time. It's a collaborative community where we all help each other."
+          },
+          {
+            "q": "Where is ParKeando available?",
+            "a": "We currently operate in major cities in Spain. We are constantly expanding to reach more locations."
+          }
+        ]
+      },
+      "uso": {
+        "title": "Using the App",
+        "questions": [
+          {
+            "q": "How do I indicate that I'm leaving my spot?",
+            "a": "Simply tap the 'Release Spot' button in the app and confirm your location. Other users will be able to see your available space on the map."
+          },
+          {
+            "q": "How do I find available spaces?",
+            "a": "Open the app and you'll see a map with all the spots that other users are about to leave. The colors indicate when they will be available."
+          },
+          {
+            "q": "Is the app free?",
+            "a": "Yes, ParKeando is completely free. We believe in the power of collaboration between drivers to make parking easier."
+          },
+          {
+            "q": "What does the points system mean?",
+            "a": "You earn points every time you help other users by indicating that you're leaving your spot. It's our way of thanking you for your collaboration with the community!"
+          }
+        ]
+      }
+    }
+  },
+  "cookies": {
+    "banner": {
+      "title": "Cookies",
+      "message": "We use cookies to improve your experience. By continuing, you accept our privacy policy.",
+      "configure": "Configure",
+      "accept": "Accept",
+      "rejectAll": "Reject all"
+    },
+    "settings": {
+      "title": "Cookie",
+      "titleSuffix": "Preferences",
+      "subtitle": "Customize your browsing experience.",
+      "essential": {
+        "title": "Essential",
+        "badge": "Required",
+        "description": "Necessary for the site to function properly. Cannot be disabled."
+      },
+      "analytics": {
+        "title": "Analytics",
+        "description": "Help us improve our website by understanding how you use it."
+      },
+      "marketing": {
+        "title": "Marketing",
+        "description": "Allow us to show you personalized advertising based on your interests."
+      },
+      "cancel": "Cancel",
+      "save": "Save preferences"
+    }
+  },
+  "common": {
+    "loading": "Loading...",
+    "save": "Save",
+    "cancel": "Cancel",
+    "edit": "Edit",
+    "delete": "Delete",
+    "confirm": "Confirm",
+    "close": "Close",
+    "error": "Error",
+    "success": "Success",
+    "warning": "Warning",
+    "info": "Information"
+  }
+}
